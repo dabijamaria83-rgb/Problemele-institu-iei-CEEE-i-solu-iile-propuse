@@ -1,0 +1,32 @@
+</div>
+                <div class="metric-card">
+                    <div class="metric-value">Lab</div>
+                    <div class="metric-title">Activități practice</div>
+                    <div class="metric-desc">Ar trebui organizate mai multe ore de laborator, activități practice și proiecte. De asemenea, elevii ar putea începe stagiile de practică mai devreme și ar putea avea posibilitatea să lucreze la proiecte reale. Instituția ar putea colabora cu diferite companii din domeniu, unde elevii să poată vedea cum se desfășoară activitatea profesională.</div>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 2rem;">Vocea Comunității:</h2>
+            <div class="interview-box">
+                <p class="quote-body">„Timpul petrecut pentru curățenie ar putea fi folosit mult mai eficient pentru studii și pregătirea pentru lecții. Avem nevoie de un mediu axat strict pe dezvoltarea noastră profesională.”</p>
+                <p class="author">— Maria Dabija, Raport Școlar</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Proiect realizat de: Maria Dabija</strong></p>
+        <p>Disciplina: Limba Română • © 2026 Toate drepturile rezervate.</p>
+    </footer>
+
+    <script>
+        function switchPage(pageId, navId) {
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+            document.getElementById(navId).classList.add('active');
+            window.scrollTo(0,0);
+        }
+    </script>
+</body>
+</html>
